@@ -34,7 +34,7 @@ $tasks = $task->getAll();
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,28 +46,25 @@ $tasks = $task->getAll();
 </head>
 <body>
 
-<ul class="nav justify-content-end">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="create.php">夢を描く</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="signinForm.php">ログイン</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="signupForm.php">アカウントを作る</a>
-  </li>
-</ul>
+        <ul class="nav justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="create.php">夢を描く</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="signinForm.php">ログイン</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="signupForm.php">アカウントを作る</a>
+        </li>
+        </ul>
 
 <div class="all-contents">
     <h1>夢日記</h1>
 </div>
-
-
     <div class="index">
         <main class="index-main">
-        <div class="row p-3">
+
             <?php foreach ($tasks as $task) : ?>
-                <div class="col-sm-6 col-md-4 col-lg-3 py-3 py-3">
                     <div class="card">
                         <img src="any/image/sky.JPG" class="card-img-top" alt="sky">
                         <div class="card-body">
@@ -84,10 +81,10 @@ $tasks = $task->getAll();
                             </div>
                         </div>
                     </div>
-                </div>
             <?php endforeach; ?>
-        </div>
         </main>
+
+
         <aside class="index-aside">
           <h3>夢の意味は？？</h3>
           <p>関連ページでチェック！</p>    
@@ -100,5 +97,6 @@ $tasks = $task->getAll();
         </aside>
         
     </div>
+
 </body>
 </html>

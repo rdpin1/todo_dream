@@ -28,6 +28,16 @@ body {
     display: flex;
 }
 
+.card {
+    margin: 50px;
+    width: 80%;
+}
+
+.card-img-top {
+    width: 80%;
+    margin: 10%;
+}
+
 .all-contents h1 {
     font-size: 30px;
     font-weight: bold;
@@ -55,3 +65,4 @@ body {
 .index-aside p {
     text-align: center;
 }
+
