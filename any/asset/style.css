@@ -1,0 +1,57 @@
+
+/* 全体 */
+body {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav {
+    margin-top: 5%;
+}
+
+
+
+
+
+/* index.php */
+
+.index-main {
+    width: 80%;
+}
+
+.index-aside {
+    width: 20%;
+}
+
+.index {
+    display: flex;
+}
+
+.all-contents h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0;
+    margin-top: 50px;
+}
+
+.aside {
+    display: grid;
+    justify-content: center;
+    margin: 20px;
+}
+
+.aside a {
+    margin: 20px;
+}
+
+.index-aside h3 {
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+
+.index-aside p {
+    text-align: center;
+}
