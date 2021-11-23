@@ -90,7 +90,7 @@ $tasks = $task->getAll();
           <p>関連ページでチェック！</p>    
           <div class="aside">
           <a href="https://nonno.hpplus.jp/fortune/dream">夢占い</a>
-          <a href="#">夢占い</a>
+          <a href="#">夢占い8</a>
           <a href="#">夢占い</a>
           <a href="#">夢占い</a>
             </div>
