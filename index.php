@@ -59,7 +59,7 @@ $tasks = $task->getAll();
         </ul>
 
 <div class="all-contents">
-    <h1>夢日記</h1>
+    <h1>夢日記2</h1>
 </div>
     <div class="index">
         <main class="index-main">
